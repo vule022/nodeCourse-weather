@@ -3,7 +3,6 @@ const search = document.getElementById('text');
 const result = document.getElementById('result');
 
 weatherForm.addEventListener('submit', (e) => {
-
     const location = search.value;
 
     e.preventDefault()
